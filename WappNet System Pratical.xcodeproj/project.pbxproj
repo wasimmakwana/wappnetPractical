@@ -1,0 +1,489 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2DA261372704CD14006E7E86 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DA261362704CD14006E7E86 /* AppDelegate.swift */; };
+		2DA2613B2704CD14006E7E86 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DA2613A2704CD14006E7E86 /* ViewController.swift */; };
+		2DA2613E2704CD14006E7E86 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DA2613C2704CD14006E7E86 /* Main.storyboard */; };
+		2DA261402704CD16006E7E86 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DA2613F2704CD16006E7E86 /* Assets.xcassets */; };
+		2DA261432704CD16006E7E86 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DA261412704CD16006E7E86 /* LaunchScreen.storyboard */; };
+		2DA2614D2704D5D2006E7E86 /* media.json in Resources */ = {isa = PBXBuildFile; fileRef = 2DA2614C2704D5D2006E7E86 /* media.json */; };
+		2DA261672704D922006E7E86 /* VideoListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DA261652704D922006E7E86 /* VideoListCell.swift */; };
+		2DA261682704D922006E7E86 /* VideoListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2DA261662704D922006E7E86 /* VideoListCell.xib */; };
+		2DA2616B2704DFBF006E7E86 /* FavouriteVideosListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DA2616A2704DFBF006E7E86 /* FavouriteVideosListVC.swift */; };
+		2DA261732704E98E006E7E86 /* TableViewExtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DA261722704E98E006E7E86 /* TableViewExtn.swift */; };
+		2DA261762704E9AA006E7E86 /* ImageViewExtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DA261752704E9AA006E7E86 /* ImageViewExtn.swift */; };
+		2DA261792704EA74006E7E86 /* MainScreenExtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DA261782704EA74006E7E86 /* MainScreenExtn.swift */; };
+		2DA2617C2704EB73006E7E86 /* ImagePreviewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DA2617B2704EB73006E7E86 /* ImagePreviewVC.swift */; };
+		2DA261822704EE9D006E7E86 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DA261812704EE9D006E7E86 /* AVFoundation.framework */; };
+		2DA261842704EEF2006E7E86 /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DA261832704EEF2006E7E86 /* AVKit.framework */; };
+		2DA261882704F1A1006E7E86 /* WappNet.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2DA261862704F1A1006E7E86 /* WappNet.xcdatamodeld */; };
+		314DB350AF2C1EB916E2BF4C /* Pods_WappNet_System_Pratical.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24F4F5326A5B734F6776F9CD /* Pods_WappNet_System_Pratical.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		23DA018DDBF6C420691017D2 /* Pods-WappNet System Pratical.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WappNet System Pratical.release.xcconfig"; path = "Target Support Files/Pods-WappNet System Pratical/Pods-WappNet System Pratical.release.xcconfig"; sourceTree = "<group>"; };
+		24F4F5326A5B734F6776F9CD /* Pods_WappNet_System_Pratical.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WappNet_System_Pratical.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DA261332704CD14006E7E86 /* WappNet System Pratical.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WappNet System Pratical.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DA261362704CD14006E7E86 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2DA2613A2704CD14006E7E86 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2DA2613D2704CD14006E7E86 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2DA2613F2704CD16006E7E86 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2DA261422704CD16006E7E86 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2DA261442704CD16006E7E86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2DA2614C2704D5D2006E7E86 /* media.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = media.json; sourceTree = "<group>"; };
+		2DA261652704D922006E7E86 /* VideoListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoListCell.swift; sourceTree = "<group>"; };
+		2DA261662704D922006E7E86 /* VideoListCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VideoListCell.xib; sourceTree = "<group>"; };
+		2DA2616A2704DFBF006E7E86 /* FavouriteVideosListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteVideosListVC.swift; sourceTree = "<group>"; };
+		2DA261722704E98E006E7E86 /* TableViewExtn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewExtn.swift; sourceTree = "<group>"; };
+		2DA261752704E9AA006E7E86 /* ImageViewExtn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewExtn.swift; sourceTree = "<group>"; };
+		2DA261782704EA74006E7E86 /* MainScreenExtn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenExtn.swift; sourceTree = "<group>"; };
+		2DA2617B2704EB73006E7E86 /* ImagePreviewVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePreviewVC.swift; sourceTree = "<group>"; };
+		2DA2617E2704EE70006E7E86 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		2DA261812704EE9D006E7E86 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		2DA261832704EEF2006E7E86 /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
+		2DA261872704F1A1006E7E86 /* WappNet.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WappNet.xcdatamodel; sourceTree = "<group>"; };
+		74731874EA5AF136C741B090 /* Pods-WappNet System Pratical.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WappNet System Pratical.debug.xcconfig"; path = "Target Support Files/Pods-WappNet System Pratical/Pods-WappNet System Pratical.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2DA261302704CD14006E7E86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DA261822704EE9D006E7E86 /* AVFoundation.framework in Frameworks */,
+				314DB350AF2C1EB916E2BF4C /* Pods_WappNet_System_Pratical.framework in Frameworks */,
+				2DA261842704EEF2006E7E86 /* AVKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2DA2612A2704CD14006E7E86 = {
+			isa = PBXGroup;
+			children = (
+				2DA261352704CD14006E7E86 /* WappNet System Pratical */,
+				2DA261342704CD14006E7E86 /* Products */,
+				A88D6B1022D06FAE77E80A40 /* Pods */,
+				321634FF33B5E6FB39179C00 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2DA261342704CD14006E7E86 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2DA261332704CD14006E7E86 /* WappNet System Pratical.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2DA261352704CD14006E7E86 /* WappNet System Pratical */ = {
+			isa = PBXGroup;
+			children = (
+				2DA261702704E972006E7E86 /* Extension */,
+				2DA261642704D8F8006E7E86 /* View */,
+				2DA2614C2704D5D2006E7E86 /* media.json */,
+				2DA261362704CD14006E7E86 /* AppDelegate.swift */,
+				2DA2613A2704CD14006E7E86 /* ViewController.swift */,
+				2DA2616A2704DFBF006E7E86 /* FavouriteVideosListVC.swift */,
+				2DA2617B2704EB73006E7E86 /* ImagePreviewVC.swift */,
+				2DA2613C2704CD14006E7E86 /* Main.storyboard */,
+				2DA2613F2704CD16006E7E86 /* Assets.xcassets */,
+				2DA261412704CD16006E7E86 /* LaunchScreen.storyboard */,
+				2DA261442704CD16006E7E86 /* Info.plist */,
+				2DA261862704F1A1006E7E86 /* WappNet.xcdatamodeld */,
+			);
+			path = "WappNet System Pratical";
+			sourceTree = "<group>";
+		};
+		2DA261642704D8F8006E7E86 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2DA261652704D922006E7E86 /* VideoListCell.swift */,
+				2DA261662704D922006E7E86 /* VideoListCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2DA261702704E972006E7E86 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				2DA261722704E98E006E7E86 /* TableViewExtn.swift */,
+				2DA261752704E9AA006E7E86 /* ImageViewExtn.swift */,
+				2DA261782704EA74006E7E86 /* MainScreenExtn.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		321634FF33B5E6FB39179C00 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2DA261832704EEF2006E7E86 /* AVKit.framework */,
+				2DA261812704EE9D006E7E86 /* AVFoundation.framework */,
+				2DA2617E2704EE70006E7E86 /* AudioToolbox.framework */,
+				24F4F5326A5B734F6776F9CD /* Pods_WappNet_System_Pratical.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A88D6B1022D06FAE77E80A40 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				74731874EA5AF136C741B090 /* Pods-WappNet System Pratical.debug.xcconfig */,
+				23DA018DDBF6C420691017D2 /* Pods-WappNet System Pratical.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2DA261322704CD14006E7E86 /* WappNet System Pratical */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2DA261472704CD16006E7E86 /* Build configuration list for PBXNativeTarget "WappNet System Pratical" */;
+			buildPhases = (
+				43B151C5AF7E357290C8D635 /* [CP] Check Pods Manifest.lock */,
+				2DA2612F2704CD14006E7E86 /* Sources */,
+				2DA261302704CD14006E7E86 /* Frameworks */,
+				2DA261312704CD14006E7E86 /* Resources */,
+				30304F51F6C84A7338641E2B /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "WappNet System Pratical";
+			productName = "WappNet System Pratical";
+			productReference = 2DA261332704CD14006E7E86 /* WappNet System Pratical.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2DA2612B2704CD14006E7E86 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					2DA261322704CD14006E7E86 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 2DA2612E2704CD14006E7E86 /* Build configuration list for PBXProject "WappNet System Pratical" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2DA2612A2704CD14006E7E86;
+			productRefGroup = 2DA261342704CD14006E7E86 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2DA261322704CD14006E7E86 /* WappNet System Pratical */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2DA261312704CD14006E7E86 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DA261432704CD16006E7E86 /* LaunchScreen.storyboard in Resources */,
+				2DA261682704D922006E7E86 /* VideoListCell.xib in Resources */,
+				2DA261402704CD16006E7E86 /* Assets.xcassets in Resources */,
+				2DA2614D2704D5D2006E7E86 /* media.json in Resources */,
+				2DA2613E2704CD14006E7E86 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		30304F51F6C84A7338641E2B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WappNet System Pratical/Pods-WappNet System Pratical-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WappNet System Pratical/Pods-WappNet System Pratical-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WappNet System Pratical/Pods-WappNet System Pratical-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		43B151C5AF7E357290C8D635 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WappNet System Pratical-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2DA2612F2704CD14006E7E86 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DA2613B2704CD14006E7E86 /* ViewController.swift in Sources */,
+				2DA261762704E9AA006E7E86 /* ImageViewExtn.swift in Sources */,
+				2DA261372704CD14006E7E86 /* AppDelegate.swift in Sources */,
+				2DA261882704F1A1006E7E86 /* WappNet.xcdatamodeld in Sources */,
+				2DA261732704E98E006E7E86 /* TableViewExtn.swift in Sources */,
+				2DA2616B2704DFBF006E7E86 /* FavouriteVideosListVC.swift in Sources */,
+				2DA2617C2704EB73006E7E86 /* ImagePreviewVC.swift in Sources */,
+				2DA261792704EA74006E7E86 /* MainScreenExtn.swift in Sources */,
+				2DA261672704D922006E7E86 /* VideoListCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2DA2613C2704CD14006E7E86 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2DA2613D2704CD14006E7E86 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2DA261412704CD16006E7E86 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2DA261422704CD16006E7E86 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2DA261452704CD16006E7E86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2DA261462704CD16006E7E86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2DA261482704CD16006E7E86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 74731874EA5AF136C741B090 /* Pods-WappNet System Pratical.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "WappNet System Pratical/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "WappNet-System-Pratical";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		2DA261492704CD16006E7E86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23DA018DDBF6C420691017D2 /* Pods-WappNet System Pratical.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "WappNet System Pratical/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "WappNet-System-Pratical";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2DA2612E2704CD14006E7E86 /* Build configuration list for PBXProject "WappNet System Pratical" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DA261452704CD16006E7E86 /* Debug */,
+				2DA261462704CD16006E7E86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2DA261472704CD16006E7E86 /* Build configuration list for PBXNativeTarget "WappNet System Pratical" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DA261482704CD16006E7E86 /* Debug */,
+				2DA261492704CD16006E7E86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2DA261862704F1A1006E7E86 /* WappNet.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2DA261872704F1A1006E7E86 /* WappNet.xcdatamodel */,
+			);
+			currentVersion = 2DA261872704F1A1006E7E86 /* WappNet.xcdatamodel */;
+			path = WappNet.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 2DA2612B2704CD14006E7E86 /* Project object */;
+}
